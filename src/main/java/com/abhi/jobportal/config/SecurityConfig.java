@@ -43,7 +43,7 @@ public class SecurityConfig {
 				.anyRequest().authenticated())
 		
 		 .formLogin(login -> login
-		            .defaultSuccessUrl("http://localhost:3000/", true))
+		            .defaultSuccessUrl("https://jobportal-frontend-chi.vercel.app/", true))
 		.httpBasic(Customizer.withDefaults());
 		
 		
