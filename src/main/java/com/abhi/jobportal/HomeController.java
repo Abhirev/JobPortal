@@ -31,7 +31,7 @@ import com.abhi.jobportal.service.UserService;
 import com.abhi.jobportal.service.jobApplService;
 import com.abhi.jobportal.service.jobService;
 
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://jobportal-frontend-chi.vercel.app/", allowCredentials = "true")
 @RestController
 public class HomeController {
 	
